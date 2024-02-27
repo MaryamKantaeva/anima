@@ -1,0 +1,176 @@
+.header 
+  height: 821px
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.93) 40.86%, rgba(0, 0, 0, 0.8) 100%)
+  background-image: url(../images/header_fon.jpg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  @media (max-width: 767px)
+    padding: 29px 24px
+  &-img
+    width: 873px
+    height: 603px
+    position: absolute
+    right: 0px
+    @media (max-width: 767px)
+      display: none
+  
+  &-window 
+    display: flex
+    max-width: 1280px
+    position: relative
+    height: 603px
+    margin: 35px auto
+    justify-content: space-between
+    align-items: center
+    @media (max-width: 767px)
+      margin: 64px auto
+  &_title 
+    margin-left: 89px
+    margin-top: 67px
+    @media (max-width: 767px)
+      margin-left: 0
+  &-box 
+    width: 743px
+    height: 361px
+    margin-bottom: 80px
+    position: relative
+    z-index: 1
+    background-color: #000
+    @media (max-width: 767px)
+      background: none
+      width: 100%
+  &_button
+    display: flex
+    gap: 23px
+    @media (max-width: 767px)
+      flex-direction: column
+      gap: 10px
+.menu 
+  display: flex
+  justify-content: space-between
+  width: 955px
+  background-color: #000
+  margin-top: 43px
+  @media (max-width: 767px)
+    display: none
+  &_item 
+    color: #FFF
+    border-bottom: 2px solid #fff0
+    font-feature-settings: 'clig' off, 'liga' off
+    font-family: Raleway
+    font-size: 18px
+    font-style: normal
+    font-weight: 400
+    line-height: normal
+    text-transform: uppercase
+    padding: 13px 34px
+    @media (max-width: 1142px)
+      padding: 13px 17px
+    @media (max-width: 1050px)
+      padding: 13px 8px
+    &:first-child
+      padding-left: 57px
+      @media (max-width: 1142px)
+        padding-left: 30px
+      @media (max-width: 1050px)
+        padding-left: 15px
+    &:last-child
+      padding-right: 57px
+      @media (max-width: 1142px)
+        padding-right: 30px
+      @media (max-width: 1050px)
+        padding-right: 15px
+    &:hover
+      border-bottom: 2px solid #fff
+    @media (max-width:995px)
+       font-size: 12px
+.title_whiteLine 
+  width: 82px
+  height: 0.4px
+  background-color: #FFF
+.title_white 
+  width: 550px
+  color: #FFF
+  font-family: Raleway
+  font-size: 50px
+  text-transform: uppercase
+  margin-bottom: 17px
+  @media (max-width: 767px)
+    width: 100%
+    font-size: 37px
+    margin-bottom: 47px
+.title_span 
+  color: #28553F
+  font-family: Raleway
+  font-size: 50px
+  text-transform: uppercase
+  @media (max-width: 767px)
+    font-size: 37px
+.title_small 
+  display: flex
+  align-items: center
+  gap: 8px
+  margin-bottom: 9px
+  @media (max-width: 767px)
+    margin-bottom: 11px 
+.title_p 
+  color: #9C9C9C
+  font-family: Raleway
+  font-size: 14px
+  text-transform: uppercase
+  @media (max-width: 767px)
+    font-size: 12px
+.nav 
+  margin: 0 auto
+  display: flex
+  gap: 91px
+  align-items: flex-end
+  max-width: 1304px
+  @media (max-width: 767px)
+    align-items: flex-start
+    justify-content: space-between
+    gap: 10px
+.button-text 
+  color: #FFF
+  text-align: center
+  font-family: Raleway
+  font-size: 16px
+  text-transform: uppercase
+.button-green 
+  background: #28553F
+  cursor: pointer
+  &:hover
+    background: #1a3a2a 
+.button-black 
+  background: #141414
+  cursor: pointer
+  &:hover
+    background: #191919
+.buttons 
+  width: 288.343px
+  height: 68px
+  display: flex
+  align-items: center
+  justify-content: center
+  @media (max-width: 767px)
+    width: 100%
+    height: 50px
+.logo
+  width: 258px
+  min-width: 180px
+  @media (max-width: 767px)
+    width: 180px
+  img
+    width: 100%
+.hamburger
+  display: none
+  width: 37px
+  &__line
+    height: 2px
+    background-color: #FFF
+    &_margin
+      margin: 8px 0
+  @media (max-width: 767px)
+    display: block
+
